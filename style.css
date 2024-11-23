@@ -1,0 +1,64 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AE445A;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8BCB9;
+}
+p, ul, ol, table, form{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+nav{
+    background-color: #432E54;
+    text-align: right;
+}
+.links{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-inline: 10%;
+}
+#img{
+    border-radius: 10%;
+}
+.texto{
+    flex: 1;
+    text-align: justify;
+    margin-right: 20px;
+}
+.custom-line{
+    border: 0;
+    height: 10px;
+    background-color: #4B4376;
+    margin: 10px;
+}
+section{
+    margin: 5%;
+}
+.custom-table{
+    width: 80%;
+    margin: 2%;
+    border-collapse: collapse;
+}
+.custom-table th{
+    background-color: #AE445A;
+}
+.custom-table td{
+    background-color: #E8BCB9;
+}
+form{
+    margin-inline: 40%;
+}
+footer{
+    background-color: #432E54;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8BCB9;
+}
