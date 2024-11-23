@@ -6,6 +6,7 @@
     <title>Sobre Mi</title>
 </head>
 <body>
+    <!-- Encabezados y parrafos-->
     <h1>Aylin Estefany Rada Lobo</h1>
     <img src="img.jpg" alt="foto de perfil">
     <p>Soy Aylin Rada, profesional en formación en ingeniería de software, apasionada por la tecnología y el aprendizaje continuo. 
@@ -17,7 +18,9 @@
          Universitaria Minuto de Dios, una carrera que me permite combinar mi interés por la tecnología con mi pasión por la resolución
           de problemas y la innovación. Esta formación me está brindando las bases necesarias para avanzar en el mundo digital y el 
           desarrollo de soluciones tecnológicas.</p>
+    <!-- Enlace a red social-->
     <h2>Encuentrame en <a href="https://www.linkedin.com/in/aylin-rada/">Linkedin</a></h2>
+    <!-- Listas-->
     <h2>Pasatiempos</h2>
     <ul>
         <li>Diseñar en Canva y explorar nuevas herramientas digitales.</li>
@@ -31,6 +34,7 @@
         <li>Planificar y estructurar un horario de trabajo que incluya el cuidado de mi bebé y el desarrollo de mis habilidades 
             técnicas.</li>
     </ol>
+    <!-- tabla con horarios para hacer las tareas pendientes-->
     <table border="1">
         <thead>
           <tr>
@@ -87,6 +91,21 @@
           </tr>
         </tbody>
       </table>
-      
+      <!-- formulario-->
+      <form action="mailto:aylinrada@gmail.com" method="post">
+        <fieldset>
+          <legend>Formulario de Contacto</legend>
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" name="nombre" required>
+          <br><br>
+          <label for="correo">Correo: </label>
+          <input type="email" id="correo" name="correo" required>
+          <br><br>
+          <label for="motivo">Motivo de Contacto: </label>
+          <input type="text" id="motivo" name="motivo" required>
+          <br><br>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>      
 </body>
 </html>
