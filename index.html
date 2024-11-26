@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 3</title>
+</head>
+<body>
+<!--Paso 1-->
+    <script>
+        /*
+        //Definimos variables
+        let a=10;
+        let b=5;
+        let suma=a+b;
+        let resta=a-b;
+        let multiplicacion=a*b;
+        let division=a/b;
+        //Imprimimos en la pagina
+        document.write("El resultado de sumar "  + a + "+" + b + " es igual a " + suma + "<br>");
+        document.write("El resultado de restar " + a + "-" +  b + " es igual a " + resta + "<br>");
+        document.write("El resultado de multiplicar " + a + "X" + b + " es igual a " + multiplicacion + "<br>");
+        document.write("El resultado de dividir " + a + "/" + b + " es igual a " + division + "<br>");
+//Paso 2
+        //Solicitamos los datos
+        let num1=parseInt(prompt("Ingresa un número "))
+        let num2=parseInt(prompt("Ingresa un número "))
+        let operacion=prompt("Ingresa una operación (suma, resta, multiplicacion o division)").toLowerCase();
+        //Definismos la función
+        function realizarOperacion(num1, num2, operacion) {
+            if (operacion === "suma") {
+                return num1 + num2;
+            } else if (operacion === "resta") {
+                return num1 - num2;
+            } else if (operacion === "multiplicacion") {
+                return num1 * num2;
+            } else if (operacion === "division") {
+                 if (num2 !== 0) { // Evitamos división por cero
+                    return num1 / num2;
+                } else {
+                 return "Error: División por cero no es posible.";
+                }
+            } else {
+                 return "Operación no válida.";
+            }
+        }
+        //Llamamos la funcion
+        console.log("El resultado de la " + operacion + " entre los dos números es: " + realizarOperacion(num1, num2, operacion));
+//Paso 3
+        //Solicitamos los datos
+        let num3=parseInt(prompt("Ingresa un número "))
+        let num4=parseInt(prompt("Ingresa un número "))
+        let operacion1=prompt("Ingresa una operación (suma, resta, multiplicacion o division)").toLowerCase();
+        //Definimos la funcion
+        function realizarOperacion(num3, num4, operacion) {
+            if (operacion === "suma") {
+                return num3 + num4;
+            }
+            if (operacion === "resta") {
+                return num3 - num4;
+            }
+            if (operacion === "multiplicacion") {
+                return num3 * num4;
+            }
+            if (operacion === "division") {
+                if (num4 !== 0) {
+                   return num3 / num4;
+                } else {
+                    return "Error: División por cero no es posible.";
+                }
+            }
+            // Cuando la operacion no esta entre las mencionadas
+            return "Error: Operación no válida. Por favor elige suma, resta, multiplicacion o division.";
+        }
+        //Llamamos la funcion
+        console.log("El resultado de la " + operacion + " entre los dos números es: " + realizarOperacion(num3, num4, operacion1));
+        */
+//paso 4
+        //Definimos la funcion
+        function realizarOperacion(num5, num6, operacion2) {
+            if (operacion2 === "suma") {
+                return num5 + num6;
+            }  else if (operacion2 === "resta") {
+                return num5 - num6;
+            }  else if (operacion2 === "multiplicacion") {
+                return num5 * num6;
+            }  else if (operacion2 === "division") {
+                if (num6 === 0) {
+                    return "Error: División por cero no es posible."
+                }
+                return num5 / num6;
+            }   else {
+                return "Operación no valida.";
+            }
+            }
+        // Bucle while para realizar operaciones continuas
+            while (true) {
+        //Solicitamos los datos
+                let num5 = parseInt(prompt("Ingrese el primer número: "));
+                let num6 = parseInt(prompt("Ingrese el segundo número: "));
+                let operacion2 = prompt("Ingresa una operación (suma, resta, multiplicacion, division) o 'salir' para terminar: ").toLowerCase();
+        // Cuando el usuario quiera salir del buble
+            if (operacion2 === "salir") {
+        //mensaje de despedida
+                alert("¡Adios!");
+                break;
+        }
+        function realizarOperacion(num5, num6, operacion2) {
+            if (operacion2 === "suma") {
+                return num5 + num6;
+            }  else if (operacion2 === "resta") {
+                return num5 - num6;
+            }  else if (operacion2 === "multiplicacion") {
+                return num5 * num6;
+            }  else if (operacion2 === "division") {
+                if (num6 === 0) {
+                    return "Error: División por cero no es posible."
+                }
+                return num5 / num6;
+            }   else {
+                return "Operación no valida.";
+            }
+            }
+            let resultado = realizarOperacion(num5, num6, operacion2)
+            alert(resultado)
+            }
+
+    </script>
+</body>
+</html>
